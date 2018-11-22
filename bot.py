@@ -13,7 +13,7 @@ async def on_ready():  # method expected by client. This runs once when connecte
 
 
 @client.event
-async def on_message(message):  # event that happens per any message.
+async def on_message(message):  # event that happens per any message. 
 
     # each message has a bunch of attributes. Here are a few.
     # check out more by print(dir(message)) for example.
