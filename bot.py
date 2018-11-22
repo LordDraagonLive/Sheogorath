@@ -20,7 +20,7 @@ async def on_message(message):  # event that happens per any message.
     print(f"{message.channel}: {message.author}: {message.author.name}: {message.content}")
     # print(dir(message))
     if str(message.author) == "LordDraagon#7410" and "hello" in message.content.lower():
-        await message.channel.send('Hi!') 
+        await message.channel.send('Hi!')
 
 client.run(token)  # recall my token was saved!
 
